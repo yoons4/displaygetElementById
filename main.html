@@ -3,9 +3,113 @@
     <head>
         <meta charset = "utf-8">
         <title>Mr. Mario</title>
+        <!--
+            <script>
+            function myFunction() {
+              document.getElementById("demo1").innerHTML = "Hello Dolly!";
+              document.getElementById("demo2").innerHTML = "How are you?";
+            }
+        </script>
+        -->
+        <script>
+            document.getElementById("demo").innerHTML = "Hello Dolly.";
+        </script>
+
     </head>
     <body>
-        <p>My name is Mario.</p>
+        <p id="demo"></p>
+        <script>
+            document.getElementById("demo").innerHTML = "Hello Dolly.";
+        </script>
+        <!--
+            <h2>JavaScript Statements</h2>
+        <p>In HTML, JavaScript statements are executed by the browser.</p>
+        <button type = "button" onclick = "myFunction()">Click me!!!!!!!!!!!</button>
+        <p id = "demo1"></p>
+        <p id = "demo2"></p>
+        -->
         
+
+        <!-- //Displays the math
+            <script>
+
+            let x, y, z;  // Statement 1
+            x = 5;        // Statement 2
+            y = 6;        // Statement 3
+            z = x + y;    // Statement 4
+
+            document.getElementById("demo").innerHTML = "The value of z is " + z + ".";  
+            </script>
+
+        -->
+        
+
+       
+        
+        <!-- //Using the page that is called as js/myScript.js
+             <h2>Demo JavaScript in Head</h2>
+
+        <p id = "demo">A paragraph</p>
+
+        <button type = "button" onclick = "myFunction()">Try it!!!!!</button>
+        <script src = "js/myScript.js"></script>
+        -->
+ 
+
+        <!-- //Function in the script section
+            <script>
+            function myFunction() {
+                document.getElementById("demo").innerHTML = "Paragraph changed.";
+            }
+            </script>
+        -->
+    
+        <!-- //using <script> </script> tags
+            <h2>JavaScript in Body</h2>
+
+            <p id="demo"></p>
+
+            <script>
+                document.getElementById("demo").innerHTML = "My First JavaScript";
+            </script>
+        -->
+    
+        <!-- //About Javascript's changing size
+            <h2>What Can JavaScript Do?</h2>
+
+            <p id="demo">JavaScript can change the style of an HTML element.</p>
+
+            <button type="button" onclick="document.getElementById('demo').style.fontSize='100px'">Click Me!</button>
+        -->
+    
+
+        <!-- //About Javascript's changing appearance of a picture
+            <h2>What Can JavaScript Do?</h2>
+
+        <p>JavaScript can change HTML attribute values.</p>
+
+        <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+        <button onclick="document.getElementById('myImage').src='cat.jpeg'">Cat</button>
+
+        <img id="myImage" src="cat.jpeg" style="width:100px">
+
+        <button onclick="document.getElementById('myImage').src='dog.jpeg'">Dog</button>
+        -->
+    
+        <!-- //About Javascript's changing innterHTML
+            <h2>What can Javascript do?</h2>
+        <p id="demo">JavaScript can change HTML content.</p>
+
+        <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+        -->
+
+        <!--- //About showing current time
+        <p>My name is Mario.</p>
+        <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+            Click me to display Date and Time.</button>
+        <p id="demo"></p>
+        -->
+
     </body>
 </html>
